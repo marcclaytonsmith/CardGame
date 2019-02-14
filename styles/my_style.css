@@ -6,9 +6,12 @@ body {
 	width: 850px;
 	margin: 0 auto;
 }
+
 h1 {
-    color: coral;
+	color: coral;
+	margin-left: 36%;
 }
+
 
 #left {
 	float: left;
@@ -31,7 +34,8 @@ h1 {
 }
 
 img {
-	padding: 10px;
+	padding: 65px;
+	
 }
 
 #pHand .pName, #cHand h2 {
@@ -44,21 +48,33 @@ img {
 
 #pHand {
 	float: left;
-	background-color: bisque;
-	border-right: 2px dashed black;
+	background: #4660F5;
+	background: -webkit-linear-gradient(top left, #4660F5, #1E47AB);
+	background: -moz-linear-gradient(top left, #4660F5, #1E47AB);
+	background: linear-gradient(top left, #4660F5, #1E47AB);
+	border-radius: 25px;
 }
 
 #cHand {
 	float: right;
-	background-color:  bisque;
+	background: #7F3D3D;
+	background: -webkit-linear-gradient(top left, #7F3D3D, #D23F3F);
+	background: -moz-linear-gradient(top left, #7F3D3D, #D23F3F);
+	background: linear-gradient(top left, #7F3D3D, #D23F3F);
+	
+	border-radius: 25px;
 }
 
 #right {
 	float: right;
-	width: 225px;
+	width: 240px;
 	height: 555px;
-	background-color: green;
+	background: #275D33;
+	background: -webkit-linear-gradient(top left, #275D33, #3BE39C);
+	background: -moz-linear-gradient(top left, #275D33, #3BE39C);
+	background: linear-gradient(top left, #275D33, #3BE39C);
 	padding-left: 10px;
+	border-radius: 25px;
 }
 
 #right h2, #right p {
@@ -71,16 +87,15 @@ img {
 	padding-left: 5px;
 }
 
-#right.pName, #cName {
-	
-}
-
 #but {
 	clear: both;
 	height: 40px;
 	padding-top: 15px;
 	padding-left: 20px;
-	background-color: coral;
+	background: #D2B006;
+	background: -webkit-linear-gradient(top left, #D2B006, #9D6D10);
+	background: -moz-linear-gradient(top left, #D2B006, #9D6D10);
+	background: linear-gradient(top left, #D2B006, #9D6D10);
 }
 
 /* Rules */
